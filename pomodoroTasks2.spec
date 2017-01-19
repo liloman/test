@@ -1,4 +1,3 @@
-%define debug_package %{nil}
 Name:		pomodoroTasks2
 Version:	0.1
 Release:	1%{?dist}
