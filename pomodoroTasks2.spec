@@ -1,13 +1,13 @@
+%define debug_package %{nil}
 Name:		pomodoroTasks2
 Version:	0.1
 Release:	1%{?dist}
 Summary:  Graphical trayicon to pomodoro with taskwarrior/timewarrior
 Group:		User Interface/X
+BuildArch:  noarch
 License:	GPLv3
 URL:		 https://github.com/liloman/pomodoroTasks2
-Source0:    %{url}/archive/%{name}-%{version}.tar.gz
-
-# BuildRequires:	git
+Source0:    %{url}/archive/%{name}-%{version}-1.tar.gz
 
 Requires:	timewarrior
 Requires:	task
@@ -15,10 +15,12 @@ Requires:	python-pip
 Requires:	dbus-python
 Requires:	python-gobject
 
+
 %description
 
 Pomodoro technique allows you to concentrate on the current task and take short breaks meanwhile works. If you join it with a task manager alike taskwarrior you can have a complete workflow, accounting the time spend on any task meanwhile you take the proper rests for your brain, body, life and eyes. :)
 All your work is timetracked with timewarrior so you can view where have you been working anytime easily.
+
 
 %prep 
 %setup -q 
