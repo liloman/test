@@ -1,5 +1,5 @@
-Name:		pomodoroTasks2
-Version:	0.1
+Name:		pomodoroTasks2-test
+Version:	0.2
 Release:	1%{?dist}
 Summary:  Graphical trayicon to pomodoro with taskwarrior/timewarrior
 Group:		User Interface/X
@@ -7,6 +7,7 @@ BuildArch:  noarch
 License:	GPLv3
 URL:		 https://github.com/liloman/pomodoroTasks2
 Source0:    %{url}/archive/%{name}-%{version}-1.tar.gz
+
 
 Requires:	timewarrior
 Requires:	task
