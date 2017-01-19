@@ -1,5 +1,5 @@
-Name:		test
-Version:	0.9
+Name:		testy
+Version:	0.10
 Release:	1%{?dist}
 Summary:  Graphical trayicon to pomodoro with taskwarrior/timewarrior
 Group:		User Interface/X
