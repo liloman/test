@@ -1,12 +1,13 @@
 Name:		test
-Version:	0.8
+Version:	0.9
 Release:	1%{?dist}
 Summary:  Graphical trayicon to pomodoro with taskwarrior/timewarrior
 Group:		User Interface/X
 BuildArch:  noarch
 License:	GPLv3
 URL:		 https://github.com/liloman/pomodoroTasks2
-Source0:    %{url}/archive/%{name}-%{version}-1.tar.gz
+#without -1 to build in copr ¿?
+Source0:    %{url}/archive/%{name}-%{version}.tar.gz
 
 
 Requires:	timewarrior
